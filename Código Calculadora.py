@@ -13,7 +13,7 @@ def multiply(x, y):
 # Divisão
 def divide(x, y):
     if y == 0:
-        return "Erro! Divisão por zero não é permitida."
+        return "Erro! Não pode divir por 0."
     else:
         return x / y
 
