@@ -9,7 +9,7 @@ def multiply(x, y):
 # Divisão
 def divide(x, y):
     if y == 0:
-        return "Erro! Divisão por zero não é permitida."
+        return "Erro! Não pode divir por 0."
     else:
         return x / y
 
@@ -43,6 +43,7 @@ while True:
             print(num1, "*", num2, "=", multiply(num1, num2))
 
         elif escolha == '4':
+<<<<<<< HEAD
             # Verifica se o segundo número é zero
             if num2 == 0:
                 print("Erro! Divisão por zero não é permitida.")
@@ -51,3 +52,8 @@ while True:
     else:
         print("Opção inválida!")
         continue
+=======
+            print(num1, "/", num2, "=", divide(num1, num2))
+else:
+    print("Opção inválida!") 
+>>>>>>> a720dfc2dd66109b29780dd12cf26a10e1e6c839
