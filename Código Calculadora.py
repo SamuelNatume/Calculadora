@@ -56,4 +56,3 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
 else:
     print("Opção inválida!") 
->>>>>>> a720dfc2dd66109b29780dd12cf26a10e1e6c839
