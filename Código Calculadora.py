@@ -21,7 +21,7 @@ while True:
     print("4. Divisão")
     print("5. Sair")
 
-    # Escolha do usuário
+
     escolha = input("Digite sua escolha (1/2/3/4/5): ")
 
     if escolha == '5':
@@ -43,16 +43,7 @@ while True:
             print(num1, "*", num2, "=", multiply(num1, num2))
 
         elif escolha == '4':
-<<<<<<< HEAD
-            # Verifica se o segundo número é zero
-            if num2 == 0:
-                print("Erro! Divisão por zero não é permitida.")
-            else:
-                print(num1, "/", num2, "=", divide(num1, num2))
-    else:
-        print("Opção inválida!")
-        continue
-=======
             print(num1, "/", num2, "=", divide(num1, num2))
-else:
-    print("Opção inválida!") 
+    else:
+        print("Opção inválida!") 
+
