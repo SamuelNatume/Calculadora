@@ -1,13 +1,18 @@
+# adição
+
+def Soma(x,y):
+    return x + y
+
 # Subtração
-def subtract(x, y):
+def Subtração(x, y):
     return x - y
 
 # Mltiplicação
-def multiply(x, y):
+def Multiplicação(x, y):
     return x * y
 
 # Divisão
-def divide(x, y):
+def Divisão(x, y):
     if y == 0:
         return "Erro! Não pode divir por 0."
     else:
@@ -34,16 +39,16 @@ while True:
         
 
         if escolha == '1':
-            print(num1, "+", num2, "=", num1 + num2)
+            print(num1, "+", num2, "=", Soma(num1, num2))
 
         elif escolha == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
+            print(num1, "-", num2, "=", Subtração(num1, num2))
 
         elif escolha == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", Multiplicação(num1, num2))
 
         elif escolha == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+            print(num1, "/", num2, "=", Divisão(num1, num2))
     else:
         print("Opção inválida!") 
 
